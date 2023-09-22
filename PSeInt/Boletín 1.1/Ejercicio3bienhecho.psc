@@ -13,10 +13,10 @@ Algoritmo Ejercicio3
 		resul[j] <- num
 	FinPara
 	Para j<-1 Hasta cant Con Paso 1 Hacer
-		Si resul[j] %2 = 0 Entonces
-			Escribir "El ", resul[j], " es par"
+		Si resul[j] MOD 2=0 Entonces
+			Escribir 'El ', resul[j], ' es par'
 		SiNo
-			Escribir "El ", resul[j], "es impar"
+			Escribir 'El ', resul[j], 'es impar'
 		FinSi
 	FinPara
 FinAlgoritmo
