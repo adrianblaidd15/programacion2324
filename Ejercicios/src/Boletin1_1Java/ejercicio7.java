@@ -2,7 +2,7 @@ package Boletin1_1Java;
 
 import java.util.Scanner;
 
-public class ejerccio7 {
+public class ejercicio7 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int conta;
