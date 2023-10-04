@@ -10,7 +10,7 @@ public class ejercicio10 {
         do {
             System.out.println("Introduce un número entero o cero");
             num = scan.nextInt();
-        }while (num <= 0);
+        }while (num < 0);
 
         for (int i = 2; i <=num;i++){
             multi = i * multi;
