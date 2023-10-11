@@ -13,7 +13,7 @@ public class ejercicio5 {
         if (d > 0) {
             return d - salud;
         }
-        return
+        return 100;
     }
     public static void imprimeEstado (String [] args){
         System.out.printf("En tú inventario actual tienes: Oro:%2d, nivel:%2d, Arma:"+arma+ " Salud:"+salud, oro, nivel);
