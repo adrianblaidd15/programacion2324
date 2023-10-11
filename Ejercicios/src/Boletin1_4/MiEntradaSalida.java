@@ -1,5 +1,6 @@
 package Boletin1_4;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class MiEntradaSalida {
@@ -49,7 +50,16 @@ public class MiEntradaSalida {
             }
 
         } while (numPo < 0);
-
         return numPo;
+    }
+    public static char SiONo (String mensaje){
+        //TODO: Controlar excepciones
+        System.out.printf(mensaje + ": ");
+        char sn;
+        do {
+            sn = sc.nextLine().toUpperCase().charAt(0);
+        }while (sn != 's' && sn != 'S' && sn != 'n' && sn != 'N' );
+        return sn;
+
     }
 }
