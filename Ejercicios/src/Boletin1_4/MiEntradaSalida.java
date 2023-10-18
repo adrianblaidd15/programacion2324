@@ -23,7 +23,7 @@ public class MiEntradaSalida {
         do {
             numeroLeido = Integer.parseInt(sc.nextLine());
             if (numeroLeido < min || numeroLeido > max) {
-                System.out.println("Por favor, introduce un valor entre %d y ");
+                System.out.println("Por favor, introduce un valor dentro del rango ");
             }
 
         } while (numeroLeido < min || numeroLeido > max);
