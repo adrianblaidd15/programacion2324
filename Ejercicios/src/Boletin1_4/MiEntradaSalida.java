@@ -46,7 +46,7 @@ public class MiEntradaSalida {
             System.out.printf(mensaje + ": ");
             numPo = Integer.parseInt(sc.next());
             if (numPo < 0) {
-                System.out.println("Debe ser un número positovo");
+                System.out.println("Debe ser un número positivo");
             }
 
         } while (numPo < 0);
